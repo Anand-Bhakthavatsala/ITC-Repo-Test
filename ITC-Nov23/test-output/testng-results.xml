@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-09T12:52:06 IST" name="Default suite" finished-at="2023-11-09T12:52:14 IST" duration-ms="7924">
+    <groups>
+    </groups>
+    <test started-at="2023-11-09T12:52:06 IST" name="Default test" finished-at="2023-11-09T12:52:14 IST" duration-ms="7924">
+      <class name="ITC_Nov23.ITC_Nov23.ExtentReportEx">
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:ITC_Nov23.ITC_Nov23.ExtentReportEx@682b2fa]" started-at="2023-11-09T12:52:06 IST" name="verifyHomePageTitle" finished-at="2023-11-09T12:52:14 IST" duration-ms="7859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+      </class> <!-- ITC_Nov23.ITC_Nov23.ExtentReportEx -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
