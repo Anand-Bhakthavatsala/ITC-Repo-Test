@@ -34,7 +34,7 @@ public class TestNGDemo {
 	 */
 	@Parameters("browser")
 	@Test //(enabled=true) // acting like main() method
-	public void practicePage(String browser) {
+	public void practicePage(String browser) throws InterruptedException {
 		//driver = new FirefoxDriver();
 		if(browser.equals("chrome"))
 		{
@@ -47,6 +47,8 @@ public class TestNGDemo {
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		//Assert.assertEquals(driver.getTitle(), "rediff");
 		System.out.println("Title matching");
+		Thread.sleep(2000);
+		driver.close();
 	}
 	/*
 	 * @Parameters("browser")

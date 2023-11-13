@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		//features="D:\\Users\\Hp\\eclipse-workspace\\Guruschools13-maven\\src\\test\\java\\feature\\tester.feature",
-		features="D:\\Users\\Hp\\eclipse-workspace\\ITC-Nov23\\src\\test\\java\\feature\\loginreset.feature",
+		//features="D:\\Users\\Hp\\eclipse-workspace\\ITC-Nov23\\src\\test\\java\\feature\\loginreset.feature",
+		features="D:\\Users\\Hp\\eclipse-workspace\\ITC-Nov23\\src\\test\\java\\feature\\jpetstore.feature",
 		glue="stepDef",
 		plugin = {"pretty","html:target/HTML_Reports"},
 		//plugin = { "pretty", "html:target/cucumber-reports" },

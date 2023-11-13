@@ -2,16 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-09T12:52:06 IST" name="Default suite" finished-at="2023-11-09T12:52:14 IST" duration-ms="7924">
+  <suite started-at="2023-11-10T14:49:01 IST" name="Suite" finished-at="2023-11-10T14:49:23 IST" duration-ms="21832">
     <groups>
     </groups>
-    <test started-at="2023-11-09T12:52:06 IST" name="Default test" finished-at="2023-11-09T12:52:14 IST" duration-ms="7924">
-      <class name="ITC_Nov23.ITC_Nov23.ExtentReportEx">
-        <test-method signature="verifyHomePageTitle()[pri:0, instance:ITC_Nov23.ITC_Nov23.ExtentReportEx@682b2fa]" started-at="2023-11-09T12:52:06 IST" name="verifyHomePageTitle" finished-at="2023-11-09T12:52:14 IST" duration-ms="7859" status="PASS">
+    <test started-at="2023-11-10T14:49:01 IST" name="Test" finished-at="2023-11-10T14:49:23 IST" duration-ms="21832">
+      <class name="ITC_Nov23.ITC_Nov23.TestNGDemo">
+        <test-method signature="practicePage(java.lang.String)[pri:0, instance:ITC_Nov23.ITC_Nov23.TestNGDemo@217ed35e]" started-at="2023-11-10T14:49:01 IST" name="practicePage" finished-at="2023-11-10T14:49:23 IST" duration-ms="21760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomePageTitle -->
-      </class> <!-- ITC_Nov23.ITC_Nov23.ExtentReportEx -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- practicePage -->
+      </class> <!-- ITC_Nov23.ITC_Nov23.TestNGDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
