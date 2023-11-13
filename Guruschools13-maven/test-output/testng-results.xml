@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-10T15:21:28 IST" name="Suite" finished-at="2023-11-10T15:21:38 IST" duration-ms="9114">
+    <groups>
+    </groups>
+    <test started-at="2023-11-10T15:21:28 IST" name="Test" finished-at="2023-11-10T15:21:38 IST" duration-ms="9114">
+      <class name="RediffTestCases.AssertEquals">
+        <test-method signature="googleTitle()[pri:0, instance:RediffTestCases.AssertEquals@5f3b9c57]" started-at="2023-11-10T15:21:29 IST" name="googleTitle" finished-at="2023-11-10T15:21:38 IST" duration-ms="8959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitle -->
+        <test-method signature="validate()[pri:0, instance:RediffTestCases.AssertEquals@5f3b9c57]" started-at="2023-11-10T15:21:38 IST" name="validate" finished-at="2023-11-10T15:21:38 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method signature="validate1()[pri:0, instance:RediffTestCases.AssertEquals@5f3b9c57]" started-at="2023-11-10T15:21:38 IST" name="validate1" finished-at="2023-11-10T15:21:38 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate1 -->
+      </class> <!-- RediffTestCases.AssertEquals -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
